@@ -1,5 +1,4 @@
 @keyframes toRight {
-  
   0% {
     opacity: 0%;
     transform: translateX(-10px);
@@ -11,7 +10,6 @@
 }
 
 @keyframes toTop {
-  
   0% {
     opacity: 0%;
     transform: translateY(10px);
@@ -21,7 +19,6 @@
     transform: translateY(0);
   }
 }
-
 
 .album {
   padding-top: 55px;
@@ -36,6 +33,7 @@
   top: 0;
   background-color: white;
   z-index: 100;
+  width: 100vw;
 }
 
 .album h2 {
@@ -43,6 +41,9 @@
   font-size: 2em;
   font-weight: 100;
   animation: toRight 1s;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .album h3 {
@@ -50,6 +51,9 @@
   font-size: 1.3em;
   font-weight: 100;
   animation: toRight 1s;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .musics {

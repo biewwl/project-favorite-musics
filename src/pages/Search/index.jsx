@@ -24,7 +24,6 @@ class Search extends Component {
   searchClick = async () => {
     const { searchName } = this.state;
     this.setState({
-      searchName: "",
       loading: true,
     });
     const obj = await searchAlbumsAPI(searchName);
@@ -54,7 +53,7 @@ class Search extends Component {
               onKeyDown={(e) => {
                   if (e.key === "Enter") {
                   e.preventDefault();
-                searchClick()
+                searchClick();
               };
               }}
             />

@@ -22,14 +22,18 @@ class Album extends Component {
       match: {
         params: { id },
       },
+      history,
     } = this.props;
     const musics = await getMusics(id);
-    this.setState({
-      musics: musics.filter((e) => e.kind !== undefined),
-      artist: musics[0].artistName,
-      album: musics[0].collectionName,
-      artworkUrl100: musics[0].artworkUrl100,
-    });
+    if (musics === 'error') history.push('/search');
+    else {
+      this.setState({
+        musics: musics.filter((e) => e.kind !== undefined),
+        artist: musics[0].artistName,
+        album: musics[0].collectionName,
+        artworkUrl100: musics[0].artworkUrl100,
+      });
+    }
   }
 
   render() {

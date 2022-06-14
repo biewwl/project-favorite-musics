@@ -1,0 +1,24 @@
+@media screen and ( max-width : 830px ) {
+
+  .page-profile-edit {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .page-profile-edit form {
+    width: 250px;
+  }
+
+  .page-profile-edit form label {
+    font-size: 0.8em;
+    margin: 20px 0px;
+  }
+
+  .page-profile-edit form input {
+    margin-top: 5px;
+  }
+
+  .page-profile-edit form button {
+    margin: 40px auto 10px;
+  }
+}

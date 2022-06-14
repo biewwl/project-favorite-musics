@@ -1,0 +1,20 @@
+@media screen and ( max-width : 560px ) {
+
+  .card-profile {
+    width: 90%;
+    height: auto;
+  }
+
+  .card-profile img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .user-infos {
+    font-size: 0.8em;
+  }
+
+  .description-user {
+    width: 200px;
+  }
+}

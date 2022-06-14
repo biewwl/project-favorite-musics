@@ -1,0 +1,53 @@
+.album {
+  padding-top: 55px;
+}
+
+.header-album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+.album h2 {
+  color: rgb(30, 215, 96);
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.album h3 {
+  color: #929292;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+.musics {
+  display: flex;
+}
+
+.image-album {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 30%;
+  position: relative;
+}
+
+.image-album img {
+  height: 100px;
+  width: 100px;
+  position: sticky;
+  top: 120px;
+}
+
+.tracks {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 70%;
+}

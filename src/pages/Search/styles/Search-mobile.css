@@ -1,0 +1,7 @@
+@media screen and ( max-width : 425px ) {
+  .albums {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90vw, 1fr));
+    grid-row-gap: 40px;
+  }
+}

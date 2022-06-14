@@ -1,0 +1,34 @@
+.page-favorites {
+  min-height: 100vh;
+  background-color: rgb(30, 215, 96);
+  padding-top: 55px;
+}
+
+.page-favorites h2 {
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+  padding: 40px 20px;
+}
+
+.header-favorites {
+  padding: 20px;
+}
+
+.favorite-musics {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+}
+
+.image-favorite {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.album-info {
+  display: flex;
+  padding: 10px;
+}

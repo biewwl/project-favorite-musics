@@ -1,0 +1,52 @@
+.album .tracks-card {
+  align-items: center;
+  background-color: rgb(234, 234, 234);
+  box-shadow: 1px 1px 5px rgb(209, 209, 209);
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  width: 400px;
+}
+
+.album .track-number {
+  position: absolute;
+  transform: translateX(-50px);
+}
+
+.album .music-area {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.album .music-area span {
+  font-weight: 100;
+  font-size: 0.9em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 300px;
+}
+
+.album .favorite-area {
+  padding: 20px;
+}
+
+.album .tracks-card audio {
+  height: 35px;
+  background: transparent;
+}
+
+.album .add {
+  color: red;
+  font-size: 1.5em;
+}
+
+.album .rm {
+  color: rgb(202, 202, 202);
+  font-size: 1.5em;
+}

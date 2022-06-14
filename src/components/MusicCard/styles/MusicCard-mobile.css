@@ -1,0 +1,23 @@
+@media screen and ( max-width : 520px ) {
+  .track-number {
+    align-items: center;
+    background-color: rgb(30, 215, 96);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: 0.8em;
+    height: 30px;
+    justify-content: center;
+    transform: none !important;
+    width: 30px;
+    right: -10px;
+    top: -10px;
+  }
+
+
+  .tracks-card {
+    width: 90vw !important;
+    position: relative;
+  }
+
+}

@@ -1,0 +1,91 @@
+.page-profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 55px;
+  min-height: 100vh;
+  background-color: rgb(30, 215, 96);
+}
+
+.card-profile {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  padding: 10px;
+  width: 400px;
+  position: relative;
+  height: 490px;
+}
+
+.card-profile::after {
+  background-color: rgb(30, 215, 96);
+  content: '';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+.card-profile img {
+  border: 3px solid rgb(30, 215, 96);
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
+  margin: 20px;
+}
+
+.user-infos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.description-user {
+  background-color: rgb(241, 241, 241);
+  border-left: 3px solid rgb(30, 215, 96);
+  font-size: 0.8em;
+  margin: 40px 0;
+  padding: 10px;
+  width: 300px;
+  min-height: 100px;
+  color: #505050;
+}
+
+.name-user {
+  color: rgb(30, 215, 96);
+  font-weight: 500;
+}
+
+.email-user {
+  color: #929292;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.edit-profile {
+  background-color: white;
+  border: 0;
+  color: rgb(30, 215, 96);
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.edit-profile:hover {
+  opacity: 80%;
+}
+
+.edit-profile:disabled {
+  cursor: not-allowed;
+  opacity: 50%;
+}

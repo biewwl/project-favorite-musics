@@ -1,0 +1,7 @@
+.loading {
+  bottom: 0;
+  color: black;
+  left: 0;
+  opacity: 50%;
+  position: fixed;
+}

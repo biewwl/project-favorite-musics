@@ -1,0 +1,58 @@
+.page-profile-edit {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 55px;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(30, 215, 96);
+}
+
+.page-profile-edit form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+}
+
+.page-profile-edit form label {
+  color: white;
+  margin: 10px 0;
+}
+
+.page-profile-edit form input {
+  border: 0;
+  border-radius: 50px;
+  height: 25px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  color: #555555;
+}
+
+.page-profile-edit form input:focus {
+  border: 0;
+  outline: 0;
+}
+
+.page-profile-edit form button {
+  background: white;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: white 0 0 5px;
+  color: rgb(30, 215, 96);
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 8px;
+  width: 60px;
+}
+
+.page-profile-edit form button:hover {
+  opacity: 80%;
+}
+
+.page-profile-edit form button:disabled {
+  cursor: not-allowed;
+  opacity: 50%;
+}

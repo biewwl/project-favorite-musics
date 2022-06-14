@@ -50,3 +50,7 @@
   color: rgb(202, 202, 202);
   font-size: 1.5em;
 }
+
+.add:hover, .rm:hover {
+  cursor: pointer;
+}

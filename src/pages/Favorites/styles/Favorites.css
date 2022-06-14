@@ -1,3 +1,27 @@
+@keyframes toRight {
+  
+  0% {
+    opacity: 0%;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}
+
+@keyframes toTop {
+  
+  0% {
+    opacity: 0%;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
 .page-favorites {
   min-height: 100vh;
   background-color: rgb(30, 215, 96);
@@ -9,6 +33,7 @@
   font-size: 2em;
   font-weight: 100;
   padding: 40px 20px;
+  animation: 1s toRight;
 }
 
 .header-favorites {
@@ -20,6 +45,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 20px;
+  animation: 1s toTop;
 }
 
 .image-favorite {

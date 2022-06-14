@@ -1,3 +1,15 @@
+@keyframes toRight {
+  
+  0% {
+    opacity: 0%;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}
+
 .page-profile-edit {
   display: flex;
   justify-content: space-around;
@@ -14,6 +26,7 @@
   margin: 20px 0;
   padding: 20px;
   width: 400px;
+  animation: 1s toRight;
 }
 
 .page-profile-edit form label {

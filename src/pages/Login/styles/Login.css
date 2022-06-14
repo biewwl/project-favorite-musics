@@ -1,3 +1,27 @@
+@keyframes toTop {
+  
+  0% {
+    opacity: 0%;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+@keyframes toBottom {
+  
+  0% {
+    opacity: 0%;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
 .page-login {
   align-items: center;
   background: rgb(30, 215, 96);
@@ -12,12 +36,14 @@
   color: white;
   font-size: 5em;
   padding: 25px;
+  animation: 1s toBottom;
 }
 
 .page-login form {
   align-items: center;
   display: flex;
   flex-direction: column;
+  animation: 1s toTop;
 }
 
 .page-login input {

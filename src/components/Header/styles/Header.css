@@ -1,3 +1,16 @@
+@keyframes toBottom {
+  
+  0% {
+    opacity: 0%;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+
 header {
   align-items: center;
   background: rgb(30, 215, 96);

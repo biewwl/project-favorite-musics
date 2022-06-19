@@ -24,8 +24,9 @@
 
 .page-favorites {
   min-height: 100vh;
-  background-color: rgb(30, 215, 96);
+  background-color: #4a808c;
   padding-top: 55px;
+  font-family: tommy;
 }
 
 .page-favorites h2 {

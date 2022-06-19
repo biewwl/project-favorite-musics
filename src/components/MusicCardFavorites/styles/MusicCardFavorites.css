@@ -68,7 +68,7 @@
 }
 
 .favorite-album-name {
-  color: rgb(30, 215, 96);
+  color: #d88072;
   font-size: 0.8em;
   overflow: hidden;
   text-overflow: ellipsis;

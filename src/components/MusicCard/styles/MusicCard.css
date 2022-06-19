@@ -1,7 +1,6 @@
 .album .tracks-card {
   align-items: center;
-  background-color: rgb(234, 234, 234);
-  box-shadow: 1px 1px 5px rgb(209, 209, 209);
+  background-color: rgb(243, 243, 243);
   display: flex;
   height: 100px;
   justify-content: space-between;

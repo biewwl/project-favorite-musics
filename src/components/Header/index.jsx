@@ -11,11 +11,7 @@ class Header extends Component {
     return (
       <header>
         <Link to="/search">
-          <img
-            src={logo}
-            alt="logo-header"
-            className="logo-header"
-          />
+          <span>✦ biewwl</span>
         </Link>
         <section className="right-content">
           <nav className="nav">

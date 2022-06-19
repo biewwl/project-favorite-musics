@@ -5,19 +5,10 @@
   }
 
   .banner-login {
-    /* background-image: url(../images/wallpaper-login.jpg); */
     width: 100%;
     border-radius: 0;
-    /* border-top-right-radius: 2em;
-    border-bottom-right-radius: 2em;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: tommy;
-    animation: toRight 1s; */
     height: 100%;
+    animation: toBottom 1s;
   }
 
   .banner-login div {

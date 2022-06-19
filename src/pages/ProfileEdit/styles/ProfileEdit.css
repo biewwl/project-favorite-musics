@@ -16,7 +16,8 @@
   padding-top: 55px;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(30, 215, 96);
+  background-color: #4a808c;
+  font-family: tommy;
 }
 
 .page-profile-edit form {
@@ -50,11 +51,10 @@
 }
 
 .page-profile-edit form button {
-  background: white;
+  background: #d88072;
   border: 0;
   border-radius: 50px;
-  box-shadow: white 0 0 5px;
-  color: rgb(30, 215, 96);
+  color: white;
   cursor: pointer;
   margin: 10px 0;
   padding: 8px;

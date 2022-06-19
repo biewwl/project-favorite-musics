@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+  .page-login {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .banner-login {
+    /* background-image: url(../images/wallpaper-login.jpg); */
+    width: 100%;
+    border-radius: 0;
+    /* border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: tommy;
+    animation: toRight 1s; */
+    height: 100%;
+  }
+
+  .banner-login div {
+    width: 100%;
+    margin: 0;
+    padding: 80px 40px;
+  }
+
+  .form-login {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .form-login div {
+    width: 80vw;
+  }
+}

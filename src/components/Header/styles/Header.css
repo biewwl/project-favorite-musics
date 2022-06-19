@@ -1,5 +1,4 @@
 @keyframes toBottom {
-  
   0% {
     opacity: 0%;
     transform: translateY(-10px);
@@ -9,7 +8,6 @@
     transform: translateY(0);
   }
 }
-
 
 header {
   align-items: center;
@@ -25,7 +23,7 @@ header {
 }
 
 .logo-header {
-  width: 100px;
+  height: 40px;
 }
 
 .logo-mobile {
@@ -47,7 +45,8 @@ header {
   font-size: 0.8em;
 }
 
-.search, .favorites {
+.search,
+.favorites {
   color: white;
   margin: 0 10px;
   text-decoration: none;

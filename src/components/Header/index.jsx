@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+import logo from './images/logo.png' 
 import './styles/Header.css';
 import './styles/Header-mobile.css';
 
@@ -8,34 +9,30 @@ class Header extends Component {
   render() {
     const { userName, userImage } = this.props;
     return (
-      <header data-testid="header-component">
+      <header>
         <Link to="/search">
           <img
-            src="https://logodownload.org/wp-content/uploads/2016/09/spotify-logo-branca-white.png"
-            alt=""
+            src={logo}
+            alt="logo-header"
             className="logo-header"
           />
-          <i className="fa-brands fa-spotify logo-mobile" />
         </Link>
         <section className="right-content">
           <nav className="nav">
             <Link
               to="/search"
-              data-testid="link-to-search"
               className="search"
             >
               Search
             </Link>
             <Link
               to="/favorites"
-              data-testid="link-to-favorites"
               className="favorites"
             >
               Favorites
             </Link>
             <Link
               to="/profile"
-              data-testid="link-to-profile"
               className="profile"
             >
               Profile
@@ -53,7 +50,7 @@ class Header extends Component {
           </nav>
           <Link to="/profile" className="user-view">
             <img src={ userImage } alt="" className="header-image" />
-            <span data-testid="header-user-name" className="header-name">
+            <span className="header-name">
               {userName}
             </span>
           </Link>

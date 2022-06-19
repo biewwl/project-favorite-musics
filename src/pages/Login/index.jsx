@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import "./styles/Login.css";
 import { UserLogin } from "../../redux/actions/UserAction";
+import "./styles/Login.css";
+import logo from './images/logo.png' 
 
 class Login extends Component {
   constructor() {
@@ -23,7 +24,7 @@ class Login extends Component {
     return (
       <div className="page-login">
         <div className="container-logo">
-          <i className="fa-brands fa-spotify" />
+          <img src={logo} alt="logo" />
         </div>
         <form method="get">
           <input

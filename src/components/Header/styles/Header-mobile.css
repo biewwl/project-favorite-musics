@@ -1,14 +1,5 @@
 @media screen and ( max-width : 560px ) {
 
-  .logo-header {
-    display: none;
-  }
-
-  .logo-mobile {
-    display: block;
-    font-size: 1.5em;
-  }
-
   .mobile-nav {
     align-items: center;
     color: white;

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/project-favorite-musics/static/css/main.2f5af836.css",
+    "main.css": "/project-favorite-musics/static/css/main.217b1a40.css",
     "main.js": "/project-favorite-musics/static/js/main.b4b0e1f3.js",
     "static/media/logo.png": "/project-favorite-musics/static/media/logo.e104aeee2f4b24ba3f48.png",
     "static/media/MADE TOMMY Light_PERSONAL USE.otf": "/project-favorite-musics/static/media/MADE TOMMY Light_PERSONAL USE.baa9639fea2a3259ba0b.otf",
     "static/media/wallpaper-login.jpg": "/project-favorite-musics/static/media/wallpaper-login.a3738658f965f3d7768b.jpg",
     "index.html": "/project-favorite-musics/index.html",
-    "main.2f5af836.css.map": "/project-favorite-musics/static/css/main.2f5af836.css.map",
+    "main.217b1a40.css.map": "/project-favorite-musics/static/css/main.217b1a40.css.map",
     "main.b4b0e1f3.js.map": "/project-favorite-musics/static/js/main.b4b0e1f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f5af836.css",
+    "static/css/main.217b1a40.css",
     "static/js/main.b4b0e1f3.js"
   ]
 }
